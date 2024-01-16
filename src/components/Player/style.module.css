@@ -1,0 +1,60 @@
+
+
+.player {
+  width: 100vw;
+position: fixed;
+bottom: 0;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #262626;
+  border-radius: 50px;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center; 
+}
+
+.leftSide button, .rightSide button  {
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.playButton {
+  background: none;
+  border: 0; 
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+.rightSide, .rightSide button {
+  display: flex;
+  align-items: center;
+} 
+
+
+
+.leftSide button:hover,
+.rightSide button:hover {
+  color: #0f0;
+} 
+
+.description{
+  width: 150px;
+  height: 100px;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #121212;
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+}

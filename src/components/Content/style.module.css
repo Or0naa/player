@@ -1,0 +1,28 @@
+.content{
+    width: 100%;
+height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    margin: 15px;
+    padding: 15px;
+    overflow: auto;
+    padding-bottom: 500px;
+}
+.navLink {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  .navLink a:hover {
+    font-weight: bold;
+    color: #0f0;
+  }
+  
+  .navLink a.active {
+    font-weight: bold;
+    color: #0f0; 
+  }
